@@ -1,0 +1,490 @@
+  ......................coming from search.specs.jsx
+  { /*const component = renderer.create(
+    <StaticRouter context{{}}>
+    <search preload={data} />
+    </StaticRouter>
+    );*/
+  }
+........................
+.....................should be a comment inside moviedetails
+{ /* type Props = {
+    title: string,
+    description: string,
+    year: string,
+    poster: string
+  }
+*/}
+...............................
+
+    default: /vagrant => C:/vms/nodejs
+==> default: Machine already provisioned. Run `vagrant provision` or use the `--
+provision`
+==> default: flag to force provisioning. Provisioners marked to run always will
+still run.
+
+C:\vms\nodejs>npm install mocha -g -- save
+C:\Users\my room\AppData\Roaming\npm\mocha -> C:\Users\my room\AppData\Roaming\n
+pm\node_modules\mocha\bin\mocha
+C:\Users\my room\AppData\Roaming\npm\_mocha -> C:\Users\my room\AppData\Roaming\
+npm\node_modules\mocha\bin\_mocha
++ save@2.3.2
++ mocha@5.0.0
+added 37 packages in 68.225s
+
+C:\vms\nodejs>npm install sinon chai --save
+npm WARN nodeclass@1.0.0 No description
+npm WARN nodeclass@1.0.0 No repository field.
+
++ chai@4.1.2
++ sinon@4.3.0
+added 19 packages, removed 174 packages and moved 1 package in 37.33s
+
+C:\vms\nodejs>npm install supertest --save
+npm WARN nodeclass@1.0.0 No description
+npm WARN nodeclass@1.0.0 No repository field.
+
++ supertest@3.0.0
+added 17 packages in 38.113s
+
+C:\vms\nodejs>cd ..
+
+C:\vms>mkdir react
+
+C:\vms>cd react
+
+C:\vms\react>cd ..
+
+C:\vms>cd nodejs
+
+C:\vms\nodejs>mkdir react
+
+C:\vms\nodejs>cd react
+
+C:\vms\nodejs\react>cd ..
+
+C:\vms\nodejs>cd ..
+
+C:\vms>cd react
+
+C:\vms\react>npm install create-react-app -g --save
+C:\Users\my room\AppData\Roaming\npm\create-react-app -> C:\Users\my room\AppDat
+a\Roaming\npm\node_modules\create-react-app\index.js
++ create-react-app@1.5.2
+added 111 packages in 34.212s
+
+C:\vms\react>create-react-app -dotun
+Please specify the project directory:
+  create-react-app <project-directory>
+
+For example:
+  create-react-app my-react-app
+
+Run create-react-app --help to see all options.
+
+C:\vms\react>create-react-app dotun
+
+Creating a new React app in C:\vms\react\dotun.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts...
+
+
+> uglifyjs-webpack-plugin@0.4.6 postinstall C:\vms\react\dotun\node_modules\ugli
+fyjs-webpack-plugin
+> node lib/post_install.js
+
++ react-dom@16.2.0
++ react@16.2.0
++ react-scripts@1.1.1
+added 1153 packages in 1004.891s
+
+Success! Created dotun at C:\vms\react\dotun
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can't go back!
+
+We suggest that you begin by typing:
+
+  cd dotun
+  npm start
+
+Happy hacking!
+
+C:\vms\react>npm start
+npm ERR! path C:\vms\react\package.json
+npm ERR! code ENOENT
+npm ERR! errno -4058
+npm ERR! syscall open
+npm ERR! enoent ENOENT: no such file or directory, open 'C:\vms\react\package.js
+on'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\my room\AppData\Roaming\npm-cache\_logs\2018-02-12T14_43_3
+0_272Z-debug.log
+
+C:\vms\react>start-react-app
+'start-react-app' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\vms\react>start-react-app dotun
+'start-react-app' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\vms\react>npm start
+npm ERR! path C:\vms\react\package.json
+npm ERR! code ENOENT
+npm ERR! errno -4058
+npm ERR! syscall open
+npm ERR! enoent ENOENT: no such file or directory, open 'C:\vms\react\package.js
+on'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\my room\AppData\Roaming\npm-cache\_logs\2018-02-12T14_46_5
+7_177Z-debug.log
+
+C:\vms\react>copy nul index.html
+        1 file(s) copied.
+
+C:\vms\react>cd dotun
+
+C:\vms\react\dotun>copy nul client.js
+        1 file(s) copied.
+
+C:\vms\react\dotun>cd ..
+
+C:\vms\react>npm install prettier -g --save
+C:\Users\my room\AppData\Roaming\npm\prettier -> C:\Users\my room\AppData\Roamin
+g\npm\node_modules\prettier\bin-prettier.js
++ prettier@1.10.2
+added 1 package in 62.853s
+
+C:\vms\react>prettier --write --print-width=120 tab-width=2 --single-quote js/**
+/.{js, jsx}
+[error] No matching files. Patterns tried: tab-width=2 js/**/.{js, jsx} !**/node
+_modules/** !./node_modules/**
+
+C:\vms\react>prettier --write --print-width=120 tab-width=2 --single-quote js/**
+/*.{js, jsx}
+[error] No matching files. Patterns tried: tab-width=2 js/**/*.{js, jsx} !**/nod
+e_modules/** !./node_modules/**
+
+C:\vms\react>prettier --write --print-width=120 tab-width=2 --single-quote "js/*
+*/*.{js, jsx}"
+[error] No matching files. Patterns tried: tab-width=2 js/**/*.{js, jsx} !**/nod
+e_modules/** !./node_modules/**
+
+C:\vms\react>prettier --write --print-width=120 --tab-width=2 --single-quote "js
+/**/*.{js, jsx}"
+[error] No matching files. Patterns tried: js/**/*.{js, jsx} !**/node_modules/**
+ !./node_modules/**
+
+C:\vms\react>cd dotun
+
+C:\vms\react\dotun>prettier --write --print-width=120 --tab-width=2 --single-quo
+te "js/**/*.{js, jsx}"
+js\client.js 153ms
+
+C:\vms\react\dotun>prettier --write --print-width=120 --tab-width=2 --single-quo
+te "js/**/*.{js, jsx}"
+C:\vms\react\dotun>cd ..
+
+C:\vms\react>npm install eslint --save-dev
+npm WARN saveError ENOENT: no such file or directory, open 'C:\vms\react\package
+.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+
+npm WARN enoent ENOENT: no such file or directory, open 'C:\vms\react\package.js
+on'
+npm WARN react No description
+npm WARN react No repository field.
+npm WARN react No README data
+npm WARN react No license field.
+
++ eslint@4.17.0
+added 138 packages in 127.112s
+
+C:\vms\react>cd dotun
+
+C:\vms\react\dotun>cd js
+
+C:\vms\react\dotun\js>copy nul .eslint
+        1 file(s) copied.
+
+C:\vms\react\dotun\js>cd \
+
+C:\>vms
+'vms' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\>cd vms
+
+C:\vms>cd react
+
+C:\vms\react>cd dotun
+
+C:\vms\react\dotun>c:/vms/react/dotun/node_modules/.bin/eslint"js/**/*.js{js, js
+x}"
+The system cannot find the path specified.
+
+C:\vms\react\dotun>npminstall eslint-plugin-prettier --save-dev
+'npminstall' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\vms\react\dotun>npm install eslint-plugin-prettier --save-dev
+npm WARN eslint-plugin-prettier@2.6.0 requires a peer of prettier@>= 0.11.0 but
+none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.3 (node_modules\fse
+vents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
+1.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
+)
+
++ eslint-plugin-prettier@2.6.0
+added 3 packages in 82.454s
+
+C:\vms\react\dotun>npm install eslint-plugin-prettier --save-dev
+npm WARN eslint-plugin-prettier@2.6.0 requires a peer of prettier@>= 0.11.0 but
+none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.3 (node_modules\fse
+vents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
+1.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
+)
+
++ eslint-plugin-prettier@2.6.0
+updated 1 package in 27.155s
+
+C:\vms\react\dotun>npm install eslint-config-prettier --save-dev
+npm WARN eslint-plugin-prettier@2.6.0 requires a peer of prettier@>= 0.11.0 but
+none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.3 (node_modules\fse
+vents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
+1.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
+)
+
++ eslint-config-prettier@2.9.0
+added 2 packages in 25.453s
+
+C:\vms\react\dotun>npm install eslint-config-airbnb --save-dev
+npm WARN eslint-plugin-prettier@2.6.0 requires a peer of prettier@>= 0.11.0 but
+none is installed. You must install peer dependencies yourself.
+npm WARN eslint-config-airbnb@16.1.0 requires a peer of eslint-plugin-jsx-a11y@^
+6.0.2 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.3 (node_modules\fse
+vents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
+1.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
+)
+
++ eslint-config-airbnb@16.1.0
+added 3 packages in 25.07s
+
+C:\vms\react\dotun>c:/vms/react/dotun/node_modules/.bin/eslint"js/**/*.js{js, js
+x}"
+The system cannot find the path specified.
+
+C:\vms\react\dotun>c:/vms/react/dotun/node_modules/.bin/eslint"js/**/*.js{js, js
+x}"client.jsx
+The system cannot find the path specified.
+
+C:\vms\react\dotun>
+C:\vms\react\dotun>c:/vms/react/dotun/node_modules/.bin/eslint"js/**/*.js{js, js
+x}"client.jsx
+The system cannot find the path specified.
+
+C:\vms\react\dotun>npm run lint
+npm ERR! missing script: lint
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\my room\AppData\Roaming\npm-cache\_logs\2018-02-12T17_02_0
+4_493Z-debug.log
+
+C:\vms\react\dotun>
+
+
+DAY 2
+WHAT WE ARE DOING IS GETTING EVERTHING IN jsx into a js file 
+the browser does not understand the jsx
+
+run the babelinstall prompt
+the precept says babel shpould use : has so many tools and how to handle transfers of files to browsers
+we go into the babel-rc we install 
+(we will target two browsers : provide code based on the older version 
+we target the current version or update and the last release)
+{
+  "presets": [
+    "react",
+    ["env", {
+    
+    }]
+
+    web pack would convert all the codes in the client.jsx into a variable
+
+
+after all the talk talk 
+put styles css in public folder 
+we go into app.jsx and we are going to import 
+  => import React from 'react';
+  const app = () => (
+  <div className="app">
+  </div>
+  )
+// create a new page called landing page
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+create a folder and in it
+npm install create-react-app -g
+create-react-app "name of app" my app
+checkout, weakmap and symbol
+
+create an index.html in the root 
+<script type="text/javascript" src="node_modules/react/umd/react.production.min.js"></script>
+  <script type="text/javascript" src="node_modules/react-dom/umd/react-dom.production.min.js"></script>
+  <script type="text/javascript" src="client.js"></script>
+
+  a component is an item that is renderable in the browser
+   
+
+   config for react
+prettier(formatting tools)
+ npm install prettier -g
+  prettier --write --print-width=120 --tab-width=2 --single-quote "js/**/*.{js, jsx}"
+
+  include it into the package json scripts 
+  and on the command line npm run format
+      "format":"prettier --write --print-width=120 --tab-width=2 --single-quote \"js/**/*.{js, jsx}\"",
+eslint(linting), (other tools are JSlint)
+npm install eslint --save-dev
+
+to install an eslint plugin we create a file
+copy nul .eslintrc.json
+in the file
+{
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react"
+  ],
+
+  "plugins": [
+    "prettier"
+  ],
+
+  "parserOptions": {
+    "ecmaVersion": 2016,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+
+  "env":{
+    "browser": true,
+    "node": true,
+    "es6": true
+  }
+}
+c:/vms/react/myapp/node_modules/.bin/eslint "js/client.jsx"
+npm install eslint-plugin-prettier --save-dev
+run the command again
+c:/vms/react/myapp/node_modules/.bin/eslint "js/client.jsx"
+npm install eslint-config-airbnb --save-dev
+
+
+npm run lint
+"lint": "c:/vms/react/myapp/node_modules/.bin/eslint \"js/**/*.{jsx, js}\" --quiet"
+OR
+"lint": "c:/vms/react/myapp/node_modules/.bin/eslint . --ext .js,.jsx --quiet"
+  --quiet"
+
+ npm install eslint-config-prettier --save-dev
+
+ npm install webpack --save-dev
+ webpack compiles jsx file extensions to js file extensions
+ c:/vms/react/myapp/node_modules/.bin/webpack js/Client.jsx public/bundle.js
+
+
+ create a .babelrc
+ create a webpackconfig.js
+ npm install babel-core --save-dev
+ npm install eslint-plugin-jsx-a11y --save-dev
+ npm install babel-preset-react --save-dev
+ npm install babel-preset -env --save-dev
+
+ addto scripts as "build": "c:/vms/react/myapp/node_modules/.bin/webpack"
+ also  addto scripts as "watch": "c:/vms/react/myapp/node_modules/.bin/webpack --watch" so that webpack can be able to see changes without always running the build command
+
+ webpack does tree shaking and HMR(up module reloading)
+
+ Babel is an interpreter, webpack is a bundler
+
+  npm install react-router --save
+  
+The spread operator
+when defining a class, you don't use an arrow function
+npm install babel-eslint --save-dev
+
+npm install babel-plugin-transform-class-properties --save-dev
+"parser": "babel-eslint",
+
+setting up HMR
+add this to babel.rc plugin
+"react-hot-loader/babel"
+in webpack.config
+plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NamedModulesPlugin()
+  ],
+
+npm install webpack-hot-middleware --save
+ npm install webpack-dev-middleware --save
+  npm install react-hot-loader --save-dev
+
+  Using Flow with React
+   npm install flow-bin --save-dev
+    C:/vms/react/myapp/node_modules/.bin/flow init
+     npm install -g flow-typed
+     flow-typed install
+
+     npm install babel-preset-flow --save-dev
+     npm install eslint-plugin-flow --save-dev
+     npm install eslint-plugin-flowtype --save-dev
+
+     using Ajax with React
+     Life cycle hooks
+
+
+ testing with react
+ create a test folder in js folder
+ for each jsx file, we create a corresponding test file(for instance __searchspecs.js for Search)
+ import the files for test (eg. import Search from ../Search)
+
+ on console:
+  npm install jest --save-dev
+
+
+ npm install babel-plugin-transform-es2015-modules-commonjs --save-dev
+ npm install babel-plugin-transform-es2015-modules-commonjs --save-dev
+
+  set NODE_ENV=tests&&npm run test
+  npm install enzyme -save-dev
+  npm install enzyme-adapter-react-16 -save-dev
+  npm install enzyme-to-json --save-dev

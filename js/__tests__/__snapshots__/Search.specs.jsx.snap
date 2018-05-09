@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search renders correctly 1`] = `
+<div
+  className="search"
+>
+  <Header
+    handleSearchTerm={[Function]}
+    searchInput={true}
+  />
+  <div>
+    <ShowCard
+      imdbID="abc"
+      key="abc"
+      title="billion"
+    />
+    <ShowCard
+      imdbID="ayuc"
+      key="ayuc"
+      title="shepeteri"
+    />
+  </div>
+</div>
+`;

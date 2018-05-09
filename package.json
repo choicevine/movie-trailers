@@ -1,0 +1,58 @@
+{
+  "name": "reactapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "react-test-renderer": "^16.2.0",
+    "styled-components": "^3.1.6",
+    "webpack-dev-middleware": "^2.0.5",
+    "webpack-hot-middleware": "^2.21.0"
+  },
+  "scripts": {
+    "lint": "C:/users/\"my room\"/documents/react/dot/node_modules/.bin/eslint \"**/*{jsx, js}\"",
+    "format": "prettier --write --print-width=120 --tab-width=2 --single-quote \"js/**/*.{jsx, js}\"",
+    "watch": "C:/users/\"my room\"/documents/react/dot/node_modules/.bin/webpack --watch",
+    "dev": "C:/users/\"my room\"/documents/react/dot/node_modules/.bin/webpack-dev-server",
+    "build": "C:/users/\"my room\"/documents/react/dot/node_modules/.bin/webpack",
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "tests": "C:/users/\"my room\"/documents/react/dot/node_modules/.bin/jest -u"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "cors": "^2.8.4",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.1",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-flow": "^2.29.1",
+    "eslint-plugin-flowtype": "^2.45.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "express": "^4.16.2",
+    "flow-bin": "^0.66.0",
+    "jest": "^22.4.0",
+    "react-hot-loader": "^3.1.3",
+    "react-router": "^4.2.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}

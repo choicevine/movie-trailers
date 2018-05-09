@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#placeholder {
+	width: 600px;
+	height: 450px;
+	border: 1px solid #ccc;
+	margin: 50px auto 20px auto;
+}
+
+#plcaeholder img{
+	max-width: 100%;
+}
+
+ul#thumbs {
+	width: 700px;
+	height: 300px;
+}
+
+ul#thumbs li {
+	list-style-type: none;
+	width: 200px;
+	height: 200px;
+	margin-right: 20px;
+	float: left;
+}
+
+ul#thumbs li a {
+	display: block;
+}
+
+ul#thumbs li a img{
+	max-width: 100%;
+}
